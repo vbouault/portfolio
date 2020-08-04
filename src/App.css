@@ -1,38 +1,151 @@
+/* rouge E71D36
+blanc EFFFE9 */
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+html {
+  background-color: #011627;
+}
+
 .App {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+  color: #2EC4B6 ;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App * {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.home-title{
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ /* NAVBAR */
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  margin: 20px 0;
+  padding-left: 0;
+  justify-content: space-evenly;
+}
+
+li {
+  overflow: hidden;
+  list-style: none;
+  white-space:nowrap;
+  margin : 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  li a {
+      opacity: 0;
+      color: #EFFFE9;
+      max-width: 0;
+      display: inline-block;
+      text-decoration: none;
+      transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color;
+  }
+      li a:hover {
+          color: #2EC4B6;
+      }
+      li a i {
+          display: block;
+          padding-right: 1em;
+      }
+  .header-icon {
+      color : #EFFFE9;
+  }
+      li:hover a {
+          opacity: 1;
+          max-width: 150px;
+          transition: max-width 1s ease-out .1s, opacity 1s ease-out .1s, color .2s;
+      }
+
+.mockup {
+  margin-top: 30px;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 640px) {
+  .mockup {
+    max-width: 200px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+  
+  h3 {
+    font-size: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* CONTACT */
+
+.form-contact {
+  max-width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.MuiFormLabel-root.Mui-focused {
+  color : #2EC4B6 !important;
+}
+.MuiInput-underline {
+  color: #2EC4B6 !important;
+}
+.MuiInput-underline:after {
+  border-bottom-color: #2EC4B6 !important ;
+}
+.MuiInput-underline:before {
+  border-bottom-color: #EFFFE9 !important ;
+}
+.MuiFormLabel-root {
+  color: #EFFFE9 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-form {
+  margin-bottom : 15px !important;
+}
+
+.contact-icon {
+  margin: 20px;
+}
+
+.contact-icon:hover {
+  color: #2EC4B6;
+}
+
+.contact-icons-container {
+  margin-top: 50px;
+}
+
+.contact-title {
+  margin: 30px;
 }
