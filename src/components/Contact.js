@@ -66,8 +66,8 @@ const Contact = () => {
         {loading ? <CircularProgress style={{ width: '50px', height: '50px' }} /> : <button className="glow-on-hover" type="submit">Envoyer</button>}
       </form>
       <div className='contact-icons-container'>
-        <a href='https://www.linkedin.com/in/vianney-bouault' target='_blank'><LinkedInIcon className='header-icon contact-icon' style={{fontSize: '45px'}}/></a>
-        <a href='https://github.com/vbouault' target='_blank'><GitHubIcon className='header-icon contact-icon' style={{fontSize: '43px'}}/></a>
+        <a href='https://www.linkedin.com/in/vianney-bouault' target='_blank' rel="noopener noreferrer"><LinkedInIcon className='header-icon contact-icon' style={{fontSize: '45px'}}/></a>
+        <a href='https://github.com/vbouault' target='_blank' rel="noopener noreferrer"><GitHubIcon className='header-icon contact-icon' style={{fontSize: '43px'}}/></a>
       </div>
       <Snackbar open={messageForm} autoHideDuration={6000} onClose={handleCloseMui}>
         <Alert onClose={handleCloseMui} severity={!errorForm ? 'success' : 'error'}>

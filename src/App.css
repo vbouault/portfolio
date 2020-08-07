@@ -149,3 +149,35 @@ li {
 .contact-title {
   margin: 30px;
 }
+
+/* Project */
+
+.MuiButtonBase-root {
+  padding: 0 !important;
+  background-color: #011627 !important;
+}
+
+.MuiAccordionDetails-root {
+  background-color: #011627 !important;
+  color: #EFFFE9 !important;
+}
+.MuiPaper-root {
+  box-shadow: none !important;
+}
+.project-accordion {
+  width: 450px !important;
+}
+
+.project-list {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-list li {
+  max-width: 280px !important;
+  white-space: normal;
+  /* overflow: hidden; */
+  /* text-align: justify !important; */
+}
