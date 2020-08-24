@@ -4,10 +4,12 @@ import projects from '../projects'
 
 const Projects = () => {
   return (
-    <div>
-      <h3>Mes projets</h3>
-      {projects.map(project => <Project project={project}/>)}
-    </div>
+    <>
+      <h2>Mes projets</h2>
+      <div className='projects-container'>
+        {projects.map(project => <Project project={project} />)}
+      </div>
+    </>
   )
 }
 
