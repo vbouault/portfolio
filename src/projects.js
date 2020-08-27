@@ -14,8 +14,8 @@ const projects = [
     siteInfo: 'Front office pour mettre en avant et voir les disponibilitées des appartements de la sociétée et le back office permetant de gérer les réservations, les appartements et les contacts',
     technos: ['Html','Css','React','Node','Express','MySql'],
     image: 'valiris.png',
-    link: 'https://cards-battle-of-heroes.netlify.app',
-    link2: 'https://cards-battle-of-heroes.netlify.app'
+    link: 'https://valiris-front-office.vbserveur.duckdns.org/',
+    link2: 'https://valiris-back-office.vbserveur.duckdns.org/'
   },
   {
     name: 'Ordoli',
@@ -28,11 +28,11 @@ const projects = [
   },
   {
     name: 'Shifumi',
-    projectInfo: 'Projet réalisé à la Wild code school pour la société Valiris Résidence',
-    siteInfo: 'Front office pour mettre en avant et voir les disponibilités des appartements de la société et le back office permetant de gérer les réservations, les appartements et les contacts',
-    technos: ['Html','Css','React','Node','Express','MySql'],
-    image: 'valiris.png',
-    link: 'https://cards-battle-of-heroes.netlify.app',
+    projectInfo: 'Projet personnel pour m\'entrainer au temps réél',
+    siteInfo: 'Jeux multijoueurs en temps réél',
+    technos: ['Html','Css','React','Node','Express','MySql','Socket.io'],
+    image: 'shifumi.png',
+    link: 'https://shifumi.vbserveur.duckdns.org/',
     link2: null
   }
 ]
