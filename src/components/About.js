@@ -9,7 +9,7 @@ const About = () => {
       <h2>A propos de moi</h2>
       <div className='about-container'>
         <p>
-          Après plusieurs années à travailler en tant que technicien supèrieur en automatisme industriel puis en télécommunication,
+          Après plusieurs années à travailler en tant que technicien supérieur en automatisme industriel puis en télécommunication,
           j'ai découvert le monde du développement et j'ai tout de suite été passionné.
           J'ai alors tout mis en oeuvre pour acquérir les compétences de ce métier, en autodidacte, 
           puis en intégrant la formation Wild Code School à Lyon.
