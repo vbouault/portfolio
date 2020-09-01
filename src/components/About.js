@@ -9,11 +9,12 @@ const About = () => {
       <h2>A propos de moi</h2>
       <div className='about-container'>
         <p>
-          Après plusieurs années à travailler en tant que technicien,
+          Après plusieurs années à travailler en tant que technicien supèrieur en automatisme industriel puis en télécommunication,
           j'ai découvert le monde du développement et j'ai tout de suite été passionné.
-          J'ai donc tout mis en oeuvre pour apprendre en autodidacte puis trouver une formation.
+          J'ai alors tout mis en oeuvre pour acquérir les compétences de ce métier, en autodidacte, 
+          puis en intégrant la formation Wild Code School à Lyon.
         </p>
-        <p id='about-bold'>Je cherche actuellement une alternance pour commencer début novembre.</p>
+        <p>Je recherche actuellement une alternance (de novembre 2020 à novembre 2021) pour appliquer ce que j'ai appris tout en poursuivant ma formation.</p>
         <p><a href={cv} download >Télécharger mon CV</a></p>
         <div className='logo-container'>
           <div>

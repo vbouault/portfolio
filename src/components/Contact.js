@@ -63,7 +63,7 @@ const Contact = () => {
         <TextField label="nom" className='input-form' required fullWidth value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} />
         <TextField label="email" className='input-form' required value={form.email} fullWidth onChange={e => setForm({ ...form, email: e.target.value })} />
         <TextField label="message" className='input-form' required value={form.message} fullWidth multiline rows={8} onChange={e => setForm({ ...form, message: e.target.value })} />
-        {loading ? <CircularProgress style={{ width: '50px', height: '50px' }} /> : <button className="glow-on-hover" type="submit">Envoyer</button>}
+        {loading ? <CircularProgress style={{ width: '50px', height: '50px', color: '#2EC4B6' }} /> : <button className="glow-on-hover" type="submit">Envoyer</button>}
       </form>
       <div className='contact-icons-container'>
         <a href='https://www.linkedin.com/in/vianney-bouault' target='_blank' rel="noopener noreferrer"><LinkedInIcon className='header-icon contact-icon' style={{fontSize: '45px'}}/></a>

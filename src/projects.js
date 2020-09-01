@@ -26,15 +26,15 @@ const projects = [
     link: 'https://ordoli.vbserveur.duckdns.org/',
     link2: null
   },
-  {
-    name: 'Shifumi',
-    projectInfo: 'Projet personnel pour m\'entrainer au temps réél',
-    siteInfo: 'Jeux multijoueurs en temps réél',
-    technos: ['Html','Css','React','Node','Express','MySql','Socket.io'],
-    image: 'shifumi.png',
-    link: 'https://shifumi.vbserveur.duckdns.org/',
-    link2: null
-  }
+  // {
+  //   name: 'Shifumi',
+  //   projectInfo: 'Projet personnel pour m\'entrainer au temps réél',
+  //   siteInfo: 'Jeux multijoueurs en temps réél',
+  //   technos: ['Html','Css','React','Node','Express','MySql','Socket.io'],
+  //   image: 'shifumi.png',
+  //   link: 'https://shifumi.vbserveur.duckdns.org/',
+  //   link2: null
+  // }
 ]
 
 export default projects;
