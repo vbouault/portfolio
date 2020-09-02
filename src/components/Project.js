@@ -33,7 +33,7 @@ const Project = ({ project: { name, projectInfo, siteInfo, technos, image, link,
             </tr>
           </table>
           <a href={link} target='_blank' rel="noopener noreferrer">Visiter le site</a>
-          {link2 && <a href={link2} target='_blank' rel="noopener noreferrer">Visiter le back-office</a>}
+          {link2 && <><a href={link2} target='_blank' rel="noopener noreferrer">Visiter le back-office</a><p>(mail: admin@demo.fr / mdp: admin)</p></>}
         </AccordionDetails>
       </Accordion>
     </div>
