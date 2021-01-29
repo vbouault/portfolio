@@ -14,7 +14,6 @@ const About = () => {
           J'ai alors tout mis en oeuvre pour acquérir les compétences de ce métier, en autodidacte, 
           puis en intégrant la formation Wild Code School à Lyon.
         </p>
-        <p>Je recherche actuellement une alternance (de novembre 2020 à novembre 2021) pour appliquer ce que j'ai appris tout en poursuivant ma formation.</p>
         <p><a href={cv} download >Télécharger mon CV</a></p>
         <div className='logo-container'>
           <div>
